@@ -2,6 +2,11 @@
 ## some benefit to caching the inverse of a matrix rather than compute 
 ## it repeatedly. 
 
+## as side note - I am new to R programming and data analysis
+## I found this web page that helped me with this assignment... thought I would share
+## it lists several matrix functions in R
+## https://www.analyticssteps.com/blogs/matrix-functions-r
+
 ## Here is a function to create a special 'matrix' object that can cache its inverse.  
 
 makeCacheMatrix <- function(x = matrix()) {
